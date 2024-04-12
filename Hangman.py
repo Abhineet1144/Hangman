@@ -17,8 +17,6 @@ def space(l, h = None):
         l[s] += " "
         agu += l[s]
         
-        #print(agu)
-        #print(s)
 
 wrd = wrds[random.randint(0, len(wrds) - 1)]
 clue = wrdsandclue[wrd]
